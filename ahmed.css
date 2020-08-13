@@ -1,0 +1,394 @@
+
+.container{
+	width:1170px;
+	margin:auto;
+}
+.clearfix{ 
+	clear:both;
+}
+.header .slider{
+	background:#EEE;
+	height:600px;
+	background-image:url("maxresdefault.jpg");
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+}
+.header .slider .intro {
+	padding-top:200px;
+	text-align:center;
+	color:#FFF;
+}
+.header .slider .intro h2{
+	color:#FFF;
+	padding:50px 0;  
+	margin:0 auto;
+	font-size:50px;
+	width:600px;
+	border-top:4px solid #FFF;
+	border-bottom:3px solid #FFF;
+}
+.header .slider .container .intro button{
+	background:none;
+	margin-top:30px;
+	font-size:20px;
+	font-weight:bold;
+	border:3px solid #FFF;
+	padding: 10px 30px;
+	color:#FFF;
+}
+.header .navbar{
+background:#252F31;
+color:#FFF;
+overflow:hidden
+}
+.header .navbar h2{
+	text-transform:uppercase;
+}
+.header .navbar h2 span{
+	color:#2ecc71;
+	
+}
+.header .navbar .container ul{
+	list-style:none;
+	padding-left:0px;
+	float:right;
+	
+}
+.header .navbar .container ul li{
+	float:left;
+	padding:10px;
+
+}
+.header .navbar .container ul li a{
+	text-decoration:none;
+	color:#FFF;
+}
+.header .navbar .container ul li a:hover,
+.header .navbar .container ul li.active a
+{
+	color:#308576;
+}
+.features{
+	overflow:hidden;
+	padding-top:40px;
+	padding-bottom:50px;
+}
+.features .feat{
+	width:33.3333%;
+	height:150px;
+
+}
+
+.features .feat p {
+padding:0 20px 0 0;	
+}
+
+
+
+.about-me{
+	background:#F2F2F2;
+	overflow:hidden;
+}
+.about-me .image{
+	width:40%;
+}
+.about-me .image img {
+	width:100%; 
+}
+
+.about-me .info{
+	width:60%;
+}
+.about-me .info h2{margin:25px 0 20px 40px;}
+.about-me .info > p{
+	margin:0 0 10px 40px;
+}
+.about-me .info > p:last-of-type{
+	margin-top:25px;
+
+}
+.about-me .info .hobbies{
+	margin:15px 0 0 40px;
+	overflow:hidden;
+}
+.about-me .info .hobbies .content{
+	width:50%;
+	overflow:hidden;
+}
+.about-me .info .hobbies .content .icon{
+	width:12%;
+	margin-right:5%;
+}
+.about-me .info .hobbies .content .icon i{
+    color: #2DCC70;
+    margin-top:45px;
+}
+.about-me .info .hobbies .content .text{
+	width:83%;
+}
+.about-me .info .hobbies .content .text p{
+		margin-top:0px
+
+}
+.about-me .info .hobbies .content .text h3{
+	margin-bottom:5px;
+}
+
+.my-skills{
+	padding-top:30px;
+	padding-bottom:50px;
+	overflow:hidden;
+
+}
+.my-skills .skills ,.my-skills .progress{
+	width:50%;
+	
+}
+.my-skills .skills h2{
+	margin:25px 0 20px 40px;
+}
+.my-skills .skills  p{
+    margin: 0 10px 0 40px;
+}
+.my-skills .skills p:last-of-type{
+	margin-top:25px;
+}
+.my-skills .skills button{
+	margin-top:20px;
+	margin-left:40px;
+}
+.my-skills .progress .technique div{overflow:hidden}
+	
+	
+}
+.my-skills .progress .technique {
+	margin-left:50px;
+}
+.my-skills .progress .technique div{
+	height:25px;
+	background:#F2F2F2;
+}
+.my-skills .progress .technique div span{
+	background:#2DCC70;
+	height:25px;
+	display:block;
+	text-align:right;
+	color:#FFF;
+	font-weight:bold;
+	line-height:27px;
+	
+}
+.resume{
+	background:#F2F2F2;
+	padding-top:50px;
+	padding-bottom:70px;
+}
+
+.resume p{
+	line-height:1.7;
+	color:#666;
+	padding:0 50px
+}
+.resume button{
+	margin-top:12px;
+}
+.my-education{
+	padding-top:30px;
+	padding-bottom:30px;
+	overflow:hidden;
+}
+.my-education  hr{
+	margin:20px 0;
+	background:#999;
+	height:1px;
+	border:0
+}
+.my-education .main {
+	width:50%;
+	
+	margin-right:5%;
+}
+.my-education .exp{
+	width:45%;
+	float:right;
+}
+.my-education .main  h2{
+	margin:25px 0 20px 40px;
+}
+.my-education .main  p{
+    margin: 0 10px 0 40px;
+}
+.my-education .main p:last-of-type{
+	margin-top:25px;
+	
+}
+
+.my-education .exp h3{
+	margin-top:80px;
+	margin-bottom:10px;
+}
+.my-education .exp span{
+	display:block;
+	margin-bottom:10px;
+}
+.my-education .exp span:first-of-type{
+	color:#999
+	
+}
+.my-education .exp span:last-of-type{
+	background:#2DCC70;
+	color:#FFF;
+	display:inline-block;
+	padding:4px 10px;	
+}
+.testimonials{
+	background:#F2F2F2;
+	padding-top:50px;
+	padding-bottom:50px;
+	
+}
+.testimonials q{
+	color:#888;
+	font:italic bold 18px/1.8 Arial,Tahoma;
+}
+.testimonials ul{
+	list-style:none;
+	padding-left:0;	
+}
+.testimonials li{
+	height:15px;
+	width:15px;
+	border:2px solid #2DCC70;
+	display:inline-block;
+	cursor:pointer;
+}
+.testimonials ul li:hover,
+.testimonials ul li.active{
+	background:#2DCC70;
+}
+.protofolio{
+		padding-top:50px;
+	padding-bottom:70px;
+	text-align:center;
+}
+.protofolio p{
+	margin-bottom:30px;
+	font-size:20px
+}
+.protofolio .our-work{
+	overflow:hidden;
+}
+.protofolio .our-work > div{
+	float:left; 
+	width:33.33333%;
+	margin-bottom:10px;
+}
+.protofolio .our-work > div img{
+	width:92%;
+	margin:10px;
+	background:#FFF;
+	padding:3px;
+	border:1px solid #CCC;
+	box-shadow:10px 10px 5px #CCC;
+}
+.contact{
+	background:#252F31;
+	overflow:hidden;
+	padding-top:50px;
+	padding-bottom:70px;
+}
+.contact .info{
+	width:50%;
+	margin-right:5%
+}
+.contact .info h2 {
+	color:#FFF;
+	margin-left:40px
+}
+.contact .info p {
+	color:#6A6E71;
+	margin-left:40px;
+}
+.contact .info p strong{
+	color:#D1D6DA
+}
+.contact .form{
+	width:45%;
+}
+.contact .form label{
+	display:block;
+	color:#D1D6DA;
+	margin:10px 0;
+}
+
+.contact .form input[type="text"]{
+	background:#4B5557;
+	color:#FFF;
+	padding:10px;
+	border:0;
+	width:80%;
+	margin-bottom:10px
+}
+
+.contact .form textarea{
+	background:#4B5557;
+	color:#FFF;
+	border:0;
+	width:80%;
+	margin-bottom:10px;
+	height:300px
+}
+.contact .form input[type="submit"]{
+	display:block;
+	margin-top:10px;
+	padding:10px 20px;
+	border:0;
+	color:#FFF;
+	background:#191e22;
+}
+
+.footer{
+	color:#6A6E71;
+	background:#191E22;
+	padding:20px 0;
+	overflow:hidden;
+}
+
+.footer ul{
+	list-style:none;
+	padding-left:0;
+	float:right;
+	margin:0px;
+}
+.footer ul li{
+	display:inline;
+}
+.footer ul li i{
+	font-size:30px;
+}
+.footer ul li i:hover{
+	color:#FFF;
+} 
+/* start frame work*/
+.my-button{
+	background:none;
+	border:3px solid #2DCC70;
+	padding:10px 30px;
+	color:#2DCC70;
+	font-weight:bold;
+}
+.fl-left{
+	float:left;
+}
+p{
+	line-height:1.7;
+	color:#888 
+}
+h2,h3{
+	color:#888
+}
+.text-align{
+text-align:center	
+}
+/* End frame work*/
